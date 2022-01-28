@@ -47,14 +47,14 @@ A look at recency bias and which champs are actually bad on their team but good 
 
 #### [> Female: 'What's your rank?' > Steve: 'Listen... I have been duoing..' - Who's fault is it really?](/loser)
 A look at Dunning-Krueger, victim-blaming, and psychosis spanning the last 7-years. TLDR:
-```python
-The loser in the queue is currently:
+```bash
+# The loser in the queue is currently:
 YoRHa Destiny#NA1
 ```
 
 #### [WHY IS SHE HERE DAWG?](/ganks)
 A look at "strimmer ganks" and confirmation bias. TLDR:
-```bash
+```
 gank_delta is currently 2.3% off average
 rating: insignificant
 
