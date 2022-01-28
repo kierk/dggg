@@ -7,7 +7,7 @@ description: >
 # - Let's explore some statistics to see how much is true and how much is severe Dunning-Krueger since s5 knowledge no longer applies.
 show_downloads: false
 # google_analytics: UA-108144808-1
-color-scheme: auto
+color-scheme: dark
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
