@@ -9,11 +9,11 @@ e.g. standard 3 camp gank timings based on champ and side of the map.
 
 Let's explore some statistics to see how much is true and how much is severe Dunning-Krueger since S5 knowledge no longer applies.
 
-*N.B. Stats are via Riot API data using last two seasons. These stats are up to date as of `1/26/2021`
+*N.B. Stats are via Riot API data using last two seasons. These stats are up to date as of `1/26/2022`
 
 ## Current Status: _Different Game?_
 
-Currently that Cope-Index&trade; is at: `76.789%`
+Currently the Cope-Index&trade; is at: `76.789%`
 <input type='range' list='tickmarks' disabled value='76.789' /><datalist id='tickmarks'>
   <option value=0 label='Yes!' style='color:green;'></option>
   <option value=1 label='Probably' style='color:greenyellow;'></option>
@@ -35,7 +35,7 @@ A look at recency bias and which champs are actually bad on their team but good 
   {name: 'twisted_fate', ally_wr: 0.2593, enemy_wr: 0.6207, delta: -0.3614},
   {name: 'ryze', ally_wr: 0.3529, enemy_wr: 0.7143, delta: -0.3613}
 ]
-# Full dodge list (>20% delta, >10 games):
+# Full dodge list (<-20% delta, >10 games):
 ['taric', 'alistar', 'rell', 'kennen', 'olaf', 'twisted_fate', 'ryze', 'kindred', 'zeri', 'master_yi', 'lissandra', 'vex', 'udyr', 'malzahar']
 
 # Cope Dodges (>20% delta, >10 games):

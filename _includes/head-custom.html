@@ -1,9 +1,21 @@
 <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
 <!-- Setup Google Analytics -->
+<script type="text/javascript">
 {% include head-custom-google-analytics.html %}
-
+$(document).ready( function () {
+    $('#dodgetable').DataTable(
+      {
+        "pageLength": 25,
+        "fixedHeader": true,
+        "order": [[3, 'asc']]
+      }
+    );
+} );
+</script>
 <!-- You can set your favicon here -->
 {% if site.favicon %}
   <link rel="shortcut icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">

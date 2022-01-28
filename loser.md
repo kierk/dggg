@@ -13,7 +13,7 @@ Index:
 
 #### Victim Blaming
 
-```python
+```
 The loser in the queue is currently:
 YoRHa Destiny#NA1
 
