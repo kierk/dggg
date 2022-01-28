@@ -35,6 +35,10 @@ h3, h4, h5, h6 {
   color: var(--clr-h-3-6);
 }
 
+h4 {
+  margin-bottom: 5px;
+}
+
 a {
   color:var(--clr-a-text);
   text-decoration:none;
@@ -63,7 +67,7 @@ p.link {
 // added
 ul.link {
   list-style-type: none; /* Remove bullets */
-  margin: 0; /* To remove default bottom margin */ 
+  margin: 0; /* To remove default bottom margin */
   padding: 0.4px; /* To remove default left padding */
 }
 
@@ -177,10 +181,30 @@ section {
   width: 610px;
   float:right;
   padding-bottom:30px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 108px);
 }
 
 small {
   font-size:11px;
+}
+
+.tiny {
+  font-size: 8px;
+}
+
+datalist {
+  display: flex;
+  justify-content: space-between;
+  color: red;
+  width: 100%;
+}
+
+input {
+  width: 100%
 }
 
 hr {
@@ -191,7 +215,7 @@ hr {
   margin:10px auto 30px;
 }
 
-footer, .sidebar-footer {
+.sidebar-footer {
   width:185px;
   float:left;
   bottom:30px;
@@ -199,7 +223,12 @@ footer, .sidebar-footer {
 }
 
 footer {
-  display: none;
+  bottom: 30px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  font-size: 8px;
+  -webkit-font-smoothing:subpixel-antialiased;
+  flex-basis: content;
 }
 
 .sidebar-footer {
@@ -212,7 +241,7 @@ footer {
     padding: initial;
     display: initial;
     height: initial;
-    overflow: initial;    
+    overflow: initial;
   }
 
   footer {
@@ -254,7 +283,7 @@ footer {
     right:50px;
     top:52px;
   }
-  
+
   .link-wrapper {
     display: none !important;
   }
@@ -313,4 +342,3 @@ footer {
     color:#444;
   }
 }
-

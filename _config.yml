@@ -1,9 +1,11 @@
-title: Minimalist theme
-logo: /assets/img/logo.png
-email: bogus at gmail dot com
-description: Minimalist is a theme powered by Jekyll. It is modified based on the Minimal theme.
+title: dg.gg
+description: >
+  A data-driven exploration of a severe case of Dunning-Krueger based on S5 LoL experience.
+# - Most of the time the dynamic domeys say this it is about something they just don't know is standard,
+# - e.g. standard 3 camp gank timings based on champ and side of the map.
+# - Let's explore some statistics to see how much is true and how much is severe Dunning-Krueger since s5 knowledge no longer applies.
 show_downloads: false
-google_analytics: UA-108144808-1
+# google_analytics: UA-108144808-1
 color-scheme: auto
 plugins:
   - jekyll-sitemap
@@ -11,18 +13,18 @@ plugins:
   - jemoji
 
 sidebar:
-  - name: Google Scholar
-    icon: fa-solid fa-user-graduate
-    link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
-  - name: GitHub
-    icon: fa-brands fa-github
-    link: https://github.com/BDHU
-  - name: Twitter
+  # - name: Google Scholar
+  #   icon: fa-solid fa-user-graduate
+  #   link: https://scholar.google.com/citations?user=zR6afi8AAAAJ
+  # - name: GitHub
+  #   icon: fa-brands fa-github
+  #   link: https://github.com/BDHU
+  - name: Feature Requests
     icon: fa-brands fa-twitter
-    link: https://twitter.com/BodunHu
-  - name: Blog
-    icon: fa-solid fa-pen
-    link: https://www.bodunhu.com/blog/
-  - name: Project Repository
-    icon: fa-solid fa-box-archive
-    link: https://github.com/BDHU/minimalist
+    link: https://twitter.com/kierkePlz
+  # - name: Blog
+  #   icon: fa-solid fa-pen
+  #   link: https://www.bodunhu.com/blog/
+  # - name: Project Repository
+  #   icon: fa-solid fa-box-archive
+  #   link: https://github.com/BDHU/minimalist

@@ -26,15 +26,9 @@
     <div class="wrapper">
       <div class="sidebar">
         <header>
-          {% if site.logo %}
-            <img class="img-circle" rel="prefetch" src="{{site.logo | relative_url}}" alt="Logo">
-          {% endif %}
+            <img class="img-circle" src="https://cdn.betterttv.net/emote/5e9fa2517e090362f8b0f8d9/3x" alt="Logo"/>
 
-          {% if site.blank_title %}
-            <h1>{{ site.title | default: site.github.repository_name }}</h1>
-          {% else %}
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          {% endif %}
+            <h1><a href="{{ "/" | absolute_url }}"><i class='fa fa-home'></i>&nbsp;{{ site.title | default: site.github.repository_name }}</a></h1>
 
           {% if site.email %}
             <p class="addr"><i class="fa-regular fa-envelope"></i>&nbsp;{{ site.email }}</p>
@@ -54,13 +48,15 @@
       </div>
       <section>
 
-      {{ content }}
+      <div>{{ content }}</div>
+      <footer class='main-footer'>
+        Required disclaimer: DG.GG isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
+      </footer>
 
       </section>
-      <footer>
-        {%- include footer.html -%}
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
   </body>
+
 </html>

@@ -2,122 +2,62 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# "We play a different game dude!"
 
-[Link to another page](./another-page.html).
+Most of the time the dynamic-domeys say this phrase it is referring to something they just don't know is standard,
+e.g. standard 3 camp gank timings based on champ and side of the map.
 
-There should be whitespace between paragraphs.
+Let's explore some statistics to see how much is true and how much is severe Dunning-Krueger since S5 knowledge no longer applies.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+*N.B. Stats are via Riot API data using last two seasons. These stats are up to date as of `1/26/2021`
 
-# Header 1
+## Current Status: _Different Game?_
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Currently that Cope-Index&trade; is at: `76.789%`
+<input type='range' list='tickmarks' disabled value='76.789' /><datalist id='tickmarks'>
+  <option value=0 label='Yes!' style='color:green;'></option>
+  <option value=1 label='Probably' style='color:greenyellow;'></option>
+  <option value=2 label='Maybe?' style='color:yellow;'></option>
+  <option value=3 label='Sometimes' style='color:orange;'></option>
+  <option value=4 label='Absolutely Coping'></option>
+</datalist>
 
-## Header 2
+## Key Research Questions:
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+#### [WHY DIDN'T WE DODGE... MOOOOOT?!](/dodges)
+A look at recency bias and which champs are actually bad on their team but good on enemy team. TLDR:
+```python
+# Top 5 Good Dodges:
+[
+  {name: 'taric', ally_wr: 0, enemy_wr: 0.8, delta: -0.8},
+  {name: 'kennen', ally_wr: 0.3125, enemy_wr: 0.7778, delta: -0.4653},
+  {name: 'olaf', ally_wr: 0.5, enemy_wr: 0.9, delta: -0.4},
+  {name: 'twisted_fate', ally_wr: 0.2593, enemy_wr: 0.6207, delta: -0.3614},
+  {name: 'ryze', ally_wr: 0.3529, enemy_wr: 0.7143, delta: -0.3613}
+]
+# Full dodge list (>20% delta, >10 games):
+['taric', 'alistar', 'rell', 'kennen', 'olaf', 'twisted_fate', 'ryze', 'kindred', 'zeri', 'master_yi', 'lissandra', 'vex', 'udyr', 'malzahar']
 
-### Header 3
+# Cope Dodges (>20% delta, >10 games):
+['aurelion_sol', 'taliyah', 'aphelios', 'maokai', 'kalista', 'sejuani', '']
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+# Just bad champs in your games (<45% WR on both ally and enemy teams):
+['kalista', 'illaoi', 'zoe', 'yorick', 'poppy', 'orianna', 'cho`gath', 'shyvana', 'elise', 'lux', 'viego', 'twitch', 'pantheon', 'wukong', 'lillia', 'yummi', 'zyra', 'rumble', 'nidalee', 'gangplank', 'samira', 'syndra', 'qiyana']
 ```
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+#### [> Female: 'What's your rank?' > Steve: 'Listen... I have been duoing..' - Who's fault is it really?](/loser)
+A look at Dunning-Krueger, victim-blaming, and psychosis spanning the last 7-years. TLDR:
+```python
+The loser in the queue is currently:
+YoRHa Destiny#NA1
 ```
 
-#### Header 4
+#### [WHY IS SHE HERE DAWG?](/ganks)
+A look at "strimmer ganks" and confirmation bias. TLDR:
+```bash
+gank_delta is currently 2.3% off average
+rating: insignificant
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
+first_enemy_gank_timing is 0.8322s off average
+first_ally_gank_timing is -1.5371s off average
 ```
