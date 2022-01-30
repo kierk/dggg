@@ -108,7 +108,7 @@ ul.link:last-child {
 }
 
 .wrapper {
-  width:860px;
+  width: 1000px;
   margin: 0 auto;
 }
 
@@ -186,6 +186,38 @@ kbd {
   -ms-overflow-style: -ms-autohiding-scrollbar; // IE10+
 }
 
+nav{
+  margin-bottom: 30px;
+  ul {
+  border-radius: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: #04AA6D;
+  }
+}
+
 // Disables the scrollbar in Firefox
 // HTML-Proofer fails without "@-moz-document url-prefix()"
 // because scrollbar-width is still experimental in Firefox.
@@ -206,7 +238,7 @@ strong {
 }
 
 section {
-  width: 610px;
+  width: 750px;
   float:right;
   padding-bottom:30px;
   margin-bottom: 60px;
@@ -214,6 +246,24 @@ section {
   flex-direction: column;
   justify-content: space-between;
   height: calc(100vh - 108px);
+}
+
+.img-circle-2 {
+  border-radius: 45px;
+  height: 40px;
+  float: left;
+}
+
+.img-circle-3 {
+  height: 120px;
+}
+
+.dataTables_filter {
+  label {
+    input {
+      margin-top: 0px;
+    }
+  }
 }
 
 small {
