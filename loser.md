@@ -2,6 +2,8 @@
 layout: default
 ---
 
+# Duo Stats
+
 ## Who is the loser in the queue?
 
 _Under construction - full graphics and stats coming soon..._

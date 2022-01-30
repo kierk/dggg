@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-
+<text style="visibility: hidden;">DifferentGame</text>
 # "We play a different game dude!"
 
 Most of the time the dynamic-domeys say this phrase it is referring to something they just don't know is standard,
