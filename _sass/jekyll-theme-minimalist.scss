@@ -72,6 +72,11 @@ a {
   text-decoration:none;
 }
 
+.title-letters {
+  color:var(--clr-a-text);
+  text-decoration:none;
+}
+
 a:hover, a:focus {
   color: var(--clr-a-text-hvr);
 }
