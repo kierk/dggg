@@ -50,6 +50,7 @@ A look at Dunning-Krueger, victim-blaming, and psychosis spanning the last 7-yea
 ```bash
 # The loser in the queue is currently:
 YoRHa Destiny#NA1
+Steve SoloQ WR: 0.475, DuoQ WR: 0.4, MrM SoloQ WR: 0.48936170212765956 (Updated: 01/29/22)
 ```
 
 #### [WHY IS SHE HERE DAWG?](/ganks)

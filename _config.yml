@@ -1,7 +1,7 @@
 title: dg.gg
 favicon: true
 description: >
-  A data-driven exploration of a severe case of Dunning-Krueger based on S5 LoL experience.
+  A data-driven exploration of a severe case of Dunning-Kruger based on S5 LoL experience.
 # - Most of the time the dynamic domeys say this it is about something they just don't know is standard,
 # - e.g. standard 3 camp gank timings based on champ and side of the map.
 # - Let's explore some statistics to see how much is true and how much is severe Dunning-Krueger since s5 knowledge no longer applies.
