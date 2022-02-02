@@ -1,0 +1,74 @@
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.topnav #myLinks {
+  display: none;
+  color: white;
+}
+
+.topnav a {
+  #myLinks {
+    color: white;
+  }
+}
+
+.topnav a {
+  color: white;
+  font-weight: bold;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: var(--clr-a-text);
+  color: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a.icon:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #333;
+  color: white;
+}
+</style>
+<div class="topnav">
+  <a href="/" class="active"><i class="fas fa-home"></i>&nbsp;Home</a>
+  <div id="myLinks">
+    <a href="/dodges"><i class="fab fa-accessible-icon"></i>&nbsp;Dodges</a>
+    <a href="/loser"><i class="fas fa-people-carry"></i>&nbsp;Duo Stats</a>
+    <a href="/ganks"><i class="fas fa-skull"></i>&nbsp;Ganks</a>
+    <a href="/about"><i class="fas fa-info-circle"></i>&nbsp;About</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>

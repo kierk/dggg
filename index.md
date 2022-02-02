@@ -4,8 +4,8 @@ layout: default
 <text style="visibility: hidden;">DifferentGame</text>
 # "We play a different game dude!"
 
-Most of the time the dynamic-domeys say this phrase it is referring to something they just don't know is standard,
-e.g. standard 3 camp gank timings based on champ and side of the map.
+**Hypothesis:** Most of the time Steve and Moot say this phrase it is referring to something they just don't know is standard
+(e.g. standard 3 camp gank timings based on champ and side of the map.)
 
 Let's explore some statistics to see how much is true and how much is severe Dunning-Kruger since S5 knowledge no longer applies.
 
@@ -45,7 +45,10 @@ A look at Dunning-Krueger, victim-blaming, and psychosis spanning the last 7-yea
 ```bash
 # The loser in the queue is currently:
 YoRHa Destiny#NA1
-Steve SoloQ WR: 0.475, DuoQ WR: 0.4, MrM SoloQ WR: 0.48936170212765956 (Updated: 01/30/22)
+Steve SoloQ WR: 0.475,
+DuoQ WR: 0.4,
+MrM SoloQ WR: 0.489
+(Updated: 01/30/22)
 ```
 
 #### [WHY IS SHE HERE DAWG?](/ganks)

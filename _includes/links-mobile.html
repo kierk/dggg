@@ -9,6 +9,8 @@
         color: var(--clr-a-text-hvr);
         }
     </style>
+    <a href="/about"><i class="fa fa-question-circle"></i> Site FAQ</a><br/>
+    <a href="https://www.patreon.com/dggg"><i class="fa-brands fa-patreon"></i> Support New Features</a><br/>
     {%- for platform in site.sidebar %}
     <nobr><a href="{{ platform.link }}" rel="me"><i class="{{ platform.icon }}"></i>&nbsp;{{ platform.name }}</a>
     {%- unless forloop.last %}<span style="margin-left: 6px;"></span>{% endunless %}</nobr>

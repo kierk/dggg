@@ -21,7 +21,8 @@ YoRHa Destiny#NA1
 
 Lowest soloQ WR: YoRHa Destiny#NA1
 Lowest MMR: YoRHa Destiny#NA1
-Best performance (lolreplay performance algorithm) in duo lane: IAmMentallyIll#NA1
+Best performance (lolreplay performance algorithm) in duo lane:
+IAmMentallyIll#NA1
 Highest lane WR overall: IAmMentallyIll#NA1
 Highest deaths: YoRHa Destiny#NA1
 Highest mid game deaths: YoRHa Destiny#NA1

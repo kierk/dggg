@@ -11,6 +11,7 @@ Current table sorted by delta between your team and enemy team (Dodge top of lis
 Total Games Parsed:
 `1000` (I only have a dev riot API key so this is limited for now)
 
+<p class="dataTables_placeholder">Screen too small for dodge table. Please use on desktop / larger window.</p>
 <table class='display' id='dodgetable' style='background-color:black;'>
 <thead>
   <tr>
