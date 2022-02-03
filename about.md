@@ -33,15 +33,15 @@ I am just serving the site statically from a free pages.dev setup. If interest e
 
 #### Is this a meme?
 
-To me, no. But I'm pretty unhinged and I recognize that :^) - help me get better, [patreon.com/dggg](patreon.com/dggg)
+To me, no. But I'm pretty unhinged and I recognize that :^) - help me get better, [patreon.com/dggg](https://www.patreon.com/dggg)
 
 #### Planned Features?
 
-Currently on my radar / in development ([patreon.com/dggg](patreon.com/dggg)) sign up to get to vote on next feature):
+Currently on my radar / in development ([patreon.com/dggg](https://www.patreon.com/dggg)) sign up to get to vote on next feature):
 - [In Progress] Add multi-search widget to dodges page that, given their ally champs and enemy champs would output a predicted win % based on their performance playing with OR against those champs.
 - `Snipers` page for the most prolific stream snipers. This would be cool because I use an id that doesn't care about name changes so it would keep up to date based on riot backend id.
   - Could potentially add other popular streamers and their snipers
-- Add a non-streamer page where people can look up their summoner name (pending if I can get an upgraded Riot API Key, and some hosting and server maintenance money on [patreon.com/dggg](patreon.com/dggg))
+- Add a non-streamer page where people can look up their summoner name (pending if I can get an upgraded Riot API Key, and some hosting and server maintenance money on [patreon.com/dggg](https://www.patreon.com/dggg))
 - Graph of WR vs how much time moot spent roaming before 10 or 15 minutes.
 - Graph the avg enemy bot gank timings based on champ vs enemy ganks in their games
   - No, I won't do gank frequency because it's too vague, obviously its skewed because they don't understand wave management fundamentals and back timings, not just because they are streamers. I think the first gank timing metric above is more interesting
