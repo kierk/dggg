@@ -74,9 +74,13 @@ Enter in comma seperated champs (3 or 4 on your team and 5 on enemy team):
       document.getElementById("expectedOutcome").style.color = 'green';
     }
 
-    $(document).ready(function() {
-      $('#expectedOutcome').text(wrAvg.toPrecision(4) + '%');
-    });
+    if(isNaN(wrAvg)) {
+      $('#expectedOutcome').text(wrAvg);
+    } else {
+      $(document).ready(function() {
+        $('#expectedOutcome').text(wrAvg.toPrecision(4) + '%');
+      });
+    }
   }
 
 </script>
