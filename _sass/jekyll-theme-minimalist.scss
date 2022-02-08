@@ -77,6 +77,20 @@ a {
   text-decoration:none;
 }
 
+.team-builder {
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.team-output {
+  color: white;
+  background-color: #333;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 8px;
+  text-align: center;
+}
+
 a:hover, a:focus {
   color: var(--clr-a-text-hvr);
 }
