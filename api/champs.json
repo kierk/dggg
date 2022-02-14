@@ -1,0 +1,4 @@
+---
+layout: api
+---
+{{ site.data.champs | replace: '=>', ':' }}
