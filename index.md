@@ -9,12 +9,12 @@ layout: default
 
 Let's explore some statistics to see how much is true and how much is severe Dunning-Kruger since S5 knowledge no longer applies.
 
-*N.B. Stats are via Riot API data using last two seasons but capped at most recent 1000 games for each player. These stats are up to date as of `1/30/2022`
+*N.B. Stats are via Riot API data using last two seasons but capped at most recent 1000 games for each player. These stats are up to date as of `2/24/2022`
 
 ## Current Status: _Different Game?_
 
-Currently the Cope-Index&trade; is at: `62.174%`
-<input type='range' list='tickmarks' disabled value='68.638' /><datalist id='tickmarks'>
+Currently the Cope-Index&trade; is at: `47.624%`
+<input type='range' list='tickmarks' disabled value='47.624' /><datalist id='tickmarks'>
   <option value=0 label='Yes!' style='color:green;'></option>
   <option value=1 label='Probably' style='color:greenyellow;'></option>
   <option value=2 label='Maybe?' style='color:yellow;'></option>
@@ -30,13 +30,13 @@ A look at recency bias and which champs are actually bad on their team but good 
 #### Best Dodges:
 
 <datalist>
-<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Taric.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Kennen.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Sona.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Alistar.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Udyr.png" />&nbsp;
+<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Taric.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Kennen.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Seraphine.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Galio.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/TwistedFate.png" />&nbsp;
 </datalist>
 
 #### Most Cope Dodges:
 
 <datalist>
-<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Poppy.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Aphelios.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/AurelionSol.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Taliyah.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.3.1/img/champion/Rakan.png" />&nbsp;
+<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Neeko.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Aphelios.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Rakan.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/AurelionSol.png" />&nbsp;<img class="img-circle-3" src="https://ddragon.leagueoflegends.com/cdn/12.4.1/img/champion/Taliyah.png" />&nbsp;
 </datalist>
 ----------------------------------------------------------------------
 
@@ -45,17 +45,14 @@ A look at Dunning-Krueger, victim-blaming, and psychosis spanning the last 7-yea
 ```bash
 # The loser in the queue is currently:
 YoRHa Destiny#NA1
-Steve SoloQ WR: 0.511,
-DuoQ WR: 0.485,
-MrM SoloQ WR: 0.516 (Updated: 02/07/22)
+Steve SoloQ WR: 0.5,
+DuoQ WR: 0.505,
+MrM SoloQ WR: 0.513
+(Updated: 02/24/22)
 ```
 
 #### [WHY IS SHE HERE DAWG?](/ganks)
 A look at "strimmer ganks" and confirmation bias. TLDR:
 ```
-gank_delta is currently 2.3% off average (Updated: 01/26/22)
-rating: insignificant
-
-first_enemy_gank_timing is 0.8322s off average
-first_ally_gank_timing is -1.5371s off average
+Gank data is currently under construction - heatmap and cluster algorithm and jg based bias coming soon.
 ```
